@@ -18,7 +18,7 @@ public class Question {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String level;
-    private  String category;
+    private String category;
     private String question_title;
     private String option1;
     private String option2;
